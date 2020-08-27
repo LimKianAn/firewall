@@ -1,0 +1,7 @@
+domain: metal-stack.io
+repo: github.com/LimKianAn/firewall
+resources:
+- group: firewall
+  kind: ClusterwideNetworkPolicy
+  version: v1
+version: "2"
